@@ -8,7 +8,6 @@ $(function() {
 		$.ajax({
 		    method: "GET",
 		    url: "//api.tvmaze.com/singlesearch/shows",
-		    traditional: true,
 		    data: {
 		        q: $($showInput).val(),
 		        "embed[]": ["cast", "seasons"]
